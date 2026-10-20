@@ -2,6 +2,18 @@
 
 Rehearse is an AI mock interviewer you talk to out loud. It asks questions tailored to your role, level and topics, follows up based on your answers, and gives you a scored report afterwards.
 
+## Screenshots
+
+![Landing page](https://github.com/user-attachments/assets/0c823617-2da7-4ef6-894a-0f4bc1f8b760)
+
+![Auth page](hhttps://github.com/user-attachments/assets/f8869a48-823d-4cb9-96c8-67580a6a95da)
+
+![Dashboard page](https://github.com/user-attachments/assets/e9d8f870-d97e-488e-941d-28738d1d995e)
+
+![Interview page](https://github.com/user-attachments/assets/f08a7bed-f228-433a-9d97-884118cbaef9)
+
+![Results page](https://github.com/user-attachments/assets/77c61deb-6392-4907-bdfa-c049a2fc9e50)
+
 ## Setup
 
 ### Prerequisites
