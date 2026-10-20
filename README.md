@@ -36,7 +36,7 @@ You'll also need:
 ### 1. Clone the repo
 
 ```bash
-git clone <repo-url> rehearse
+git clone https://github.com/HimanshuS1nha/RehearseAI.git rehearse
 cd rehearse
 ```
 
