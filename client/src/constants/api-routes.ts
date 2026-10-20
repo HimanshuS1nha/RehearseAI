@@ -1,0 +1,31 @@
+export const API_ROUTES = {
+  auth: {
+    getUser: "/users/me",
+    login: "/auth/login",
+    register: "/auth/register",
+    verifyEmail: "/auth/verify-email",
+    resendVerification: "/auth/resend-verification",
+    forgotPassword: "/auth/forgot-password",
+    resetPassword: "/auth/reset-password",
+    refresh: "/auth/refresh",
+    changePassword: "/auth/change-password",
+    deleteAccount: "/users/me",
+    logout: "/auth/logout",
+  },
+  interviews: {
+    list: "/interviews",
+    create: "/interviews",
+    detail: (id: string) => `/interviews/${id}`,
+    delete: (id: string) => `/interviews/${id}`,
+    results: (id: string) => `/interviews/${id}/results`,
+    start: (id: string) => `/interviews/${id}/start`,
+    currentQuestion: (id: string) => `/interviews/${id}/current-question`,
+    answer: (id: string) => `/interviews/${id}/answer`,
+    end: (id: string) => `/interviews/${id}/end`,
+  },
+  billing: {
+    pricing: "/billing",
+    checkout: "/billing/checkout",
+    payment: (sessionId: string) => `/billing/payments/${sessionId}`,
+  },
+} as const;
