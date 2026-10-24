@@ -117,6 +117,24 @@ uv run pytest
 - **Credits and billing**: every new account gets one free interview, and more can be bought through Stripe Checkout, with payment history in the dashboard.
 - **Dashboard**: search, edit and delete your interviews and track their status.
 
+## TECH STACK USED
+
+- React.js
+- Tailwind CSS
+- Shadcn UI
+- FastAPI
+- PostgreSQL
+- SQLAlchemy
+- Alembic
+- Google Gemini
+- Stripe
+- Zustand
+- Zod
+
+## Demo
+
+Live Demo - [Click Here](https://www.youtube.com/watch?v=ybvmJk5_PjU)
+
 ## 🚀 About Me
 
 My name is Himanshu Sinha and I'm a full stack developer.
